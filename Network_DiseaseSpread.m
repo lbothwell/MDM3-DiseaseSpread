@@ -1,3 +1,4 @@
+% nfyerukbwf
 function dZ = Network_DiseaseSpread(t,z)
 n = length(z)/2; % number of towns that are connected
 
