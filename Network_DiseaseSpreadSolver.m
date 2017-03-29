@@ -1,5 +1,5 @@
 %
-% sup
+% 
 % Network disease spread solver
 %
 %
