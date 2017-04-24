@@ -2,12 +2,14 @@
 function dZ = Network_DiseaseSpread(t,z)
 n = length(z)/2; % number of towns that are connected
 
-global ConnectionMat
+global ConnectionMat 
+global Temp
 N = 1000; % number of humans
 M = 100000; % number of Mosquitoes
 
-b = 0.1; %biting rate
-
+% b = 0.000203*Temp*(Temp - 11.7)*sqrt(42.3 - Temp)
+b = 0.1; %biting rate 
+ 
 g = 0.5; % rate of recovery rate
 m = 2; % Death rate of Mosquitoes
 
